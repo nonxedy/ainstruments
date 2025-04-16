@@ -1,0 +1,8 @@
+name: ainstruments
+author: [nonxedy]
+main: com.antagon.ainstruments.Ainstruments
+description: Musicial instruments for Antagon
+version: 1-a
+prefix: ainstruments
+api-version: 1.21
+load: STARTUP
