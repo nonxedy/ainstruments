@@ -7,7 +7,9 @@ prefix: ainstruments
 api-version: 1.21
 load: STARTUP
 
-depend: [voicechat]
+depend:
+  - voicechat
+  - LuckPerms
 
 commands:
   instrument:

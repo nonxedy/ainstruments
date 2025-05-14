@@ -1,0 +1,10 @@
+/home/nonxedy/ainstruments/src/main/java/com/antagon/ainstruments/model/Instrument.java
+/home/nonxedy/ainstruments/src/main/java/com/antagon/ainstruments/listener/VoicechatEventListener.java
+/home/nonxedy/ainstruments/src/main/java/com/antagon/ainstruments/model/Guitar.java
+/home/nonxedy/ainstruments/src/main/java/com/antagon/ainstruments/VoicechatIntegration.java
+/home/nonxedy/ainstruments/src/main/java/com/antagon/ainstruments/model/Flute.java
+/home/nonxedy/ainstruments/src/main/java/com/antagon/ainstruments/sequencer/NoteSequencer.java
+/home/nonxedy/ainstruments/src/main/java/com/antagon/ainstruments/model/Piano.java
+/home/nonxedy/ainstruments/src/main/java/com/antagon/ainstruments/Ainstruments.java
+/home/nonxedy/ainstruments/src/main/java/com/antagon/ainstruments/command/InstrumentCommand.java
+/home/nonxedy/ainstruments/src/main/java/com/antagon/ainstruments/manager/InstrumentManager.java
