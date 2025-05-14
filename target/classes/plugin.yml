@@ -1,8 +1,22 @@
 name: ainstruments
 author: [nonxedy]
 main: com.antagon.ainstruments.Ainstruments
-description: Musicial instruments for Antagon
+description: Musical instruments for Antagon
 version: 1-a
 prefix: ainstruments
 api-version: 1.21
 load: STARTUP
+
+depend: [voicechat]
+
+commands:
+  instrument:
+    description: Control musical instruments
+    usage: /instrument <help|list|get|play|stop|note|remove>
+    aliases: [inst, i]
+    permission: ainstruments.use
+
+permissions:
+  ainstruments.use:
+    description: Allows using musical instruments
+    default: true
