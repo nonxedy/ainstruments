@@ -4,6 +4,7 @@ import java.util.logging.Logger;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import com.antagon.ainstruments.command.InstrumentCommand;
 import com.antagon.ainstruments.listener.VoicechatEventListener;
 import com.antagon.ainstruments.manager.InstrumentManager;
 
@@ -59,8 +60,8 @@ public class Ainstruments extends JavaPlugin {
 
     private void registerCommands() {
         // Register the instrument command
-        getCommand("instrument").setExecutor(new com.antagon.ainstruments.command.InstrumentCommand(this));
-        getCommand("instrument").setTabCompleter(new com.antagon.ainstruments.command.InstrumentCommand(this));
+        getCommand("instrument").setExecutor(new InstrumentCommand(this));
+        getCommand("instrument").setTabCompleter(new InstrumentCommand(this));
     }
 
     /**
